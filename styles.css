@@ -39,5 +39,5 @@ button {
 button:hover {
   background-color: #005fa3 !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 119, 209, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 119, 203, 0.3);
 }

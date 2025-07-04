@@ -27,13 +27,17 @@ p {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #0077cc;
-  color: white;
+  background-color: #0077cc !important;
+  color: white !important;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: #005fa3 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 119, 204, 0.3);
 }
